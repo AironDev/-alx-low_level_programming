@@ -1,20 +1,18 @@
-#include "holberton.h"
-
+#include "main.h"
 /**
- * print_alphabet - Entry point
- * Return:0
- */
-
+* print_alphabet - print lowercase alphabets
+*
+* Return: success 0
+*/
 void print_alphabet(void)
 {
-	char c = 'a';
-
-	while (c <= 'z')
-	{
-		_putchar(c);
-		c++;
-
-	}
-	_putchar('\n');
-
+int a =  97;
+int count = 1;
+while (count <= 26)
+{
+_putchar(a);
+a++;
+count++;
+}
+_putchar('\n');
 }
